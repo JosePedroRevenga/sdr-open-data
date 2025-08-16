@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TransportHubApplication<transportHub>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.alipe.transportHub.TransportHubApplication",
+            "projectName": "transportHub",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
