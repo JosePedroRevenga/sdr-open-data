@@ -38,6 +38,7 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
+/src/main/webapp/.vscode/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -59,11 +60,12 @@ build/
 # Miscellaneous
 /src/main/webapp/.angular/cache
 /src/main/webapp/.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
+/src/main/webapp/connect.lock
+/src/main/webapp/coverage
+/src/main/webapp/libpeerconnection.log
+/src/main/webapptestem.log
 /src/main/webapp/typings
+/src/main/webapp/.editorconfig
 
 # System files
 .DS_Store
