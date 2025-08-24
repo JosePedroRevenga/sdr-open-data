@@ -3,6 +3,7 @@ package com.alipe.transportHub.controller;
 import com.alipe.transportHub.model.BusLine;
 import com.alipe.transportHub.service.BusLineService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -21,7 +22,7 @@ public class BusLineController {
         return busLineService.getAllBusLines();
     }
 
-    @GetMapping("/refreshBuslines")
+    @PutMapping("/refreshBuslines")
     public List<BusLine> refreshBuslines() {
         busLineService.refreshBusLines();
         return busLineService.getAllBusLines();
