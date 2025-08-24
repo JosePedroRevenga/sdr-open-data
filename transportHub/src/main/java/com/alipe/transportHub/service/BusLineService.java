@@ -26,7 +26,7 @@ public class BusLineService {
     }
 
     // In BusLineService.java
-    // @Value("${busline.json.url}")
+    @Value("${busline.json.url}")
     private String jsonUrl = "http://datos.santander.es/api/datos/lineas_bus.json"; // Default URL, can be overridden by application.properties
 
     // Fetch raw JSON from URL
