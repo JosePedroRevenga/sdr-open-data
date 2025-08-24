@@ -46,24 +46,24 @@ build/
 .history/*
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/src/main/webapp/dist
+/src/main/webapp/tmp
+/src/main/webapp/out-tsc
+/src/main/webapp/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/src/main/webapp/node_modules
+/src/main/webapp/npm-debug.log
+/src/main/webapp/yarn-error.log
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
+/src/main/webapp/.angular/cache
+/src/main/webapp/.sass-cache/
 /connect.lock
 /coverage
 /libpeerconnection.log
 testem.log
-/typings
+/src/main/webapp/typings
 
 # System files
 .DS_Store
